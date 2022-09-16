@@ -1,0 +1,40 @@
+.message-wrapper {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.message {
+  border-radius: 7px;
+  display: inline-flex;
+  flex-direction: column;
+  padding: 11px;
+  background: #f8f8f8;
+  min-width: 120px;
+}
+
+.message__mine {
+  margin-left: auto;
+  background: #e4edfd;
+}
+
+.message__body {
+  font-weight: 500;
+  font-size: 12px;
+  color: #1e1e1e;
+}
+
+.message__footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5px;
+}
+
+.message__footer__date {
+  font-weight: 500;
+  font-size: 9px;
+  color: #999999;
+}
+
+.message__mine .message__footer__date {
+  color: #3369f3;
+}

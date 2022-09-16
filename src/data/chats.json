@@ -1,0 +1,64 @@
+{
+  "profileLink": {
+    "url": "../Profile/profile.hbs",
+    "text": "Профиль >",
+    "className": "link_grey"
+  },
+  "searchInput": {
+    "name": "search",
+    "placeholder": "Поиск",
+    "className": "input_grey"
+  },
+  "sendInput": {
+    "name": "message",
+    "placeholder": "Сообщение",
+    "className": "message-panel__input input_grey"
+  },
+  "menuButton": {
+    "className": "chat__header__menu-button",
+    "url": "../../../static/icon-kebab.svg",
+    "alt": "icon-kebab.svg"
+  },
+  "addFileButton": {
+    "className": "message-panel__add-file-button",
+    "url": "../../../static/icon-clip.svg",
+    "alt": "icon-clip.svg"
+  },
+  "sendButton": {
+    "className": "message-panel__send-button",
+    "url": "../../../static/icon-send.svg",
+    "alt": "icon-send.svg"
+  },
+  "activeChat": {
+    "name": "Андрей",
+    "avatar": {
+      "size": "s",
+      "url": "../../../static/avatar-example.png",
+      "alt": "avatar-example.png"
+    }
+  },
+  "chatList": [
+    {
+      "avatar": {
+        "size": "m",
+        "url": "../../../static/avatar-example.png",
+        "alt": "avatar-example.png"
+      },
+      "name": "Андрей",
+      "lastMessage": "Друзья, у меня для вас особенный выпуск новостей!...",
+      "sentTime": "10:49",
+      "messagesCounter": "2"
+    }
+  ],
+  "messagesList": [
+    {
+      "messageText": "Сообщение",
+      "sentTime": "12:32"
+    },
+    {
+      "messageText": "Мое ообщение",
+      "sentTime": "12:34",
+      "className": "message__mine"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{{!< main}}
+
+<form class="form">
+  {{> "Title/Title" login.title }}
+  <div class="form__fields">
+    {{#each login.fields}}
+      {{> "FormRow/FormRow" this }}
+    {{/each}}
+  </div>
+  <div class="form__buttons">
+    {{> "Button/Button" login.button }}
+    {{> "Link/Link" login.link }}
+  </div>
+</form>

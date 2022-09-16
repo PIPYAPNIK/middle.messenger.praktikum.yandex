@@ -1,0 +1,36 @@
+{
+  "title": {
+    "text": "Вход",
+    "tag": "h2"
+  },
+  "fields": [
+    {
+      "label": {
+        "name": "login",
+        "text": "Логин"
+      },
+      "input": {
+        "type": "text",
+        "name": "login"
+      }
+    },
+    {
+      "label": {
+        "name": "password",
+        "text": "Пароль"
+      },
+      "input": {
+        "type": "password",
+        "name": "password"
+      }
+    }
+  ],
+  "button": {
+    "text": "Авторизоваться",
+    "redirect": "/index.html"
+  },
+  "link": {
+    "url": "./registration.hbs",
+    "text": "Нет аккаунта?"
+  }
+}

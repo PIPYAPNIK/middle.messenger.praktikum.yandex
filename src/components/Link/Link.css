@@ -1,0 +1,16 @@
+.link {
+  font-weight: 500;
+  font-size: 13px;
+  color: #3369f3;
+}
+
+.link_grey {
+  font-size: 13px;
+  color: #999999;
+  margin-bottom: 20px;
+}
+
+.link_red {
+  font-size: 13px;
+  color: #ff0000;
+}

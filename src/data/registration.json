@@ -1,0 +1,86 @@
+{
+  "title": {
+    "text": "Регистрация",
+    "tag": "h2"
+  },
+  "fields": [
+    {
+      "label": {
+        "name": "email",
+        "text": "Почта"
+      },
+      "input": {
+        "type": "text",
+        "name": "email"
+      }
+    },
+    {
+      "label": {
+        "name": "login",
+        "text": "Логин"
+      },
+      "input": {
+        "type": "text",
+        "name": "login"
+      }
+    },
+    {
+      "label": {
+        "name": "first_name",
+        "text": "Имя"
+      },
+      "input": {
+        "type": "text",
+        "name": "first_name"
+      }
+    },
+    {
+      "label": {
+        "name": "second_name",
+        "text": "Фамилия"
+      },
+      "input": {
+        "type": "text",
+        "name": "second_name"
+      }
+    },
+    {
+      "label": {
+        "name": "phone",
+        "text": "Телефон"
+      },
+      "input": {
+        "type": "text",
+        "name": "phone"
+      }
+    },
+    {
+      "label": {
+        "name": "password",
+        "text": "Пароль"
+      },
+      "input": {
+        "type": "password",
+        "name": "password"
+      }
+    },
+    {
+      "label": {
+        "name": "repeat_password",
+        "text": "Пароль (ещё раз)"
+      },
+      "input": {
+        "type": "password",
+        "name": "repeat_password"
+      }
+    }
+  ],
+  "button": {
+    "text": "Зарегистрироваться",
+    "redirect": "/login.html"
+  },
+  "link": {
+    "url": "./login.hbs",
+    "text": "Войти"
+  }
+}

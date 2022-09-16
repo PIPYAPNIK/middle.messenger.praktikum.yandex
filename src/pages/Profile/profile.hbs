@@ -1,0 +1,21 @@
+{{!< main}}
+
+{{> "BackPanel/BackPanel" profile.backUrl}}
+<div class="info">
+  <div class="info__header">
+    {{> "Avatar/Avatar" profile.avatar}}
+    <span class="info__name">Иван</span>
+  </div>
+  {{> "InfoList/InfoList" profile.infoList}}
+  <div class="info__footer">
+    <div class="info__item">
+      {{> "Link/Link" profile.changeDataLink }}
+    </div>
+    <div class="info__item">
+      {{> "Link/Link" profile.changePasswordLink }}
+    </div>
+    <div class="info__item">
+      {{> "Link/Link" profile.logoutLink }}
+    </div>
+  </div>
+</div>

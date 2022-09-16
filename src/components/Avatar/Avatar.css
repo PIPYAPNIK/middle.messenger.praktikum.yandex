@@ -1,0 +1,27 @@
+.avatar {
+  background: #efefef;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.avatar__size_s {
+  width: 34px;
+  height: 34px;
+}
+
+.avatar__size_m {
+  height: 47px;
+  width: 47px;
+}
+
+.avatar__size_l {
+  width: 130px;
+  height: 130px;
+  padding: 25px;
+}
+
+.avatar > img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}

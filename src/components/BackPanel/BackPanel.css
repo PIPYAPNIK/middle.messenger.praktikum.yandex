@@ -1,0 +1,12 @@
+.back-panel {
+  background: #fbfbfb;
+  width: 64px;
+  border-right: 1px solid #eaeaea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-back {
+  transform: rotate(180deg);
+}
