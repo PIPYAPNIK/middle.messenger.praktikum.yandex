@@ -1,0 +1,18 @@
+.button {
+  display: block;
+  text-align: center;
+  font-weight: 500;
+  font-size: 13px;
+  color: #ffffff;
+  background: #3369f3;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+}
+
+.button_short {
+  max-width: 280px;
+}

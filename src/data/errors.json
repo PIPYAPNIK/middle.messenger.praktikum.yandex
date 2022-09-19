@@ -1,0 +1,30 @@
+{
+  "404": {
+    "title": {
+      "tag": "h1",
+      "text": "404"
+    },
+    "message": {
+      "tag": "h2",
+      "text": "Не туда попали"
+    },
+    "backLink": {
+      "url": "../Chats/index.hbs",
+      "text": "Назад к чатам"
+    }
+  },
+  "500": {
+    "title": {
+      "tag": "h1",
+      "text": "500"
+    },
+    "message": {
+      "tag": "h2",
+      "text": "Мы уже фиксим"
+    },
+    "backLink": {
+      "url": "../Chats/index.hbs",
+      "text": "Назад к чатам"
+    }
+  }
+}

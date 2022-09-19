@@ -1,0 +1,8 @@
+<div class="chat__messages messages">
+  <span class="messages__delimiter">
+    19 июня
+  </span>
+  {{#each chats.messagesList}}
+    {{> "MessageItem/MessageItem" this}}
+  {{/each}}
+</div>

@@ -1,0 +1,21 @@
+{{!< main}}
+
+{{> "BackPanel/BackPanel" changeProfile.backUrl}}
+<div class="info">
+  <form class="form-edit">
+    <div class="info__header">
+      <label for="input-avatar" class="label">
+        {{> "Avatar/Avatar" changeProfile.avatar}}
+      </label>
+      <input type="file" name="avatar" id="input-avatar" class="input-avatar"/>
+    </div>
+    <div class="form__fields">
+      {{#each changeProfile.fields}}
+        {{> "FormRow/FormRow" this }}
+      {{/each}}
+    </div>
+    <div class="form__buttons">
+      {{> "Button/Button" changeProfile.button }}
+    </div>
+  </form>
+</div>

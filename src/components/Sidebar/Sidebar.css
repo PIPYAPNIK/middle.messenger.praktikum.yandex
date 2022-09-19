@@ -1,0 +1,10 @@
+.sidebar {
+  width: 310px;
+}
+
+.sidebar__header {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px 15px;
+  align-items: flex-end;
+}

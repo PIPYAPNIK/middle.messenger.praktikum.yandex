@@ -1,0 +1,18 @@
+{{!< main}}
+
+{{> "Sidebar/Sidebar" }}
+<div class="chat">
+  <div class="chat__header">
+    <div class="chat__info">
+      {{> "Avatar/Avatar" chats.activeChat.avatar}}
+      <span class="chat__name">{{chats.activeChat.name}}</span>
+    </div>
+    {{> "ButtonIcon/ButtonIcon" chats.menuButton}}
+  </div>
+  {{> "MessagesList/MessagesList" }}
+  <div class="chat__message-panel message-panel">
+    {{> "ButtonIcon/ButtonIcon" chats.addFileButton}}
+    {{> "Input/Input" chats.sendInput }}
+    {{> "ButtonIcon/ButtonIcon" chats.sendButton}}
+  </div>
+</div>

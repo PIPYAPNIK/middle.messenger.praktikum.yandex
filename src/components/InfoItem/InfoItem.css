@@ -1,0 +1,21 @@
+.info__item {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info__item:not(:last-child) {
+  border-bottom: 1px solid #eaeaea;
+}
+
+.info__item__label {
+  font-weight: 500;
+  color: #1e1e1e;
+  font-size: 13px;
+}
+
+.info__item__value {
+  font-weight: 500;
+  font-size: 13px;
+  color: #999999;
+}

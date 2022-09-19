@@ -1,0 +1,12 @@
+.label {
+  font-weight: 500;
+  font-size: 9px;
+  color: #999999;
+  cursor: pointer;
+}
+
+.label-edit {
+  font-weight: 500;
+  font-size: 13px;
+  color: #1e1e1e;
+}

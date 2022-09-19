@@ -1,0 +1,26 @@
+.input-avatar {
+  display: none;
+}
+
+.info {
+  width: 510px;
+  margin: 60px auto 0;
+}
+
+.info__header {
+  margin-bottom: 60px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.info__name {
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 20px;
+  color: #1e1e1e;
+}
+
+.info__footer {
+  margin-top: 60px;
+}

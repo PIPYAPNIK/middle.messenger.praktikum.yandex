@@ -1,0 +1,67 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+/* Pages styles */
+
+@import "../pages/Auth/auth.css";
+@import "../pages/Chats/chats.css";
+@import "../pages/Errors/errors.css";
+@import "../pages/Profile/profile.css";
+
+/* Components styles */
+@import "../components/Button/Button.css";
+@import "../components/FormRow/FormRow.css";
+@import "../components/Input/Input.css";
+@import "../components/Label/Label.css";
+@import "../components/Link/Link.css";
+@import "../components/Title/Title.css";
+@import "../components/Avatar/Avatar.css";
+@import "../components/ButtonIcon/ButtonIcon.css";
+@import "../components/ChatItem/ChatItem.css";
+@import "../components/ChatList/ChatList.css";
+@import "../components/MessageItem/MessageItem.css";
+@import "../components/MessagesList/MessagesList.css";
+@import "../components/Sidebar/Sidebar.css";
+@import "../components/InfoList/InfoList.css";
+@import "../components/InfoItem/InfoItem.css";
+@import "../components/BackPanel/BackPanel.css";
+@import "normalize.css";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+input,
+button {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+}
